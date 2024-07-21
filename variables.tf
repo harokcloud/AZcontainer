@@ -30,7 +30,7 @@ variable "image" {
 
 variable "port" {
   type        = number
-  description = "Port to open on the container and the public IP address."
+  description = "Port to open on the container and the public IP address"
   default     = 80
 }
 
